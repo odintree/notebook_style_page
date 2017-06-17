@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+body {
+  margin: 0;
+  padding: 0;
+  background: lightgoldenrodyellow;
+}
+.paper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.lines {
+  margin-top: 40px;
+  height: calc(100% - 40px);
+  width: 100%;
+  background-image: repeating-linear-gradient(#fcf59b 0px, #fcf59b 24px, steelblue 25px);
+}
+.text {
+  position: absolute;
+  top: 65px;
+  left: 55px;
+  bottom: 10px;
+  right: 10px;
+  line-height: 25px;
+  font-family: 'Indie Flower';
+  overflow: hidden;
+  outline: none;
+}
